@@ -3,7 +3,7 @@
         'name' => 'one710/envauth',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'c542b89fe1f904f4c8bfd5a0719946a45f61fa2b',
+        'reference' => '89a0c144cfda2b538a24097c385504abbea2d124',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -31,7 +31,7 @@
         'one710/envauth' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'c542b89fe1f904f4c8bfd5a0719946a45f61fa2b',
+            'reference' => '89a0c144cfda2b538a24097c385504abbea2d124',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
