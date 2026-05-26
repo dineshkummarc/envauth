@@ -1,0 +1,32 @@
+{
+  "name": "vaibhavpandeyvpz/envelope",
+  "description": "PHP library for sending RFC 2046 & 822 compliant emails with a fluent API and multiple backends.",
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Vaibhav Pandey",
+      "email": "contact@vaibhavpandey.com"
+    }
+  ],
+  "require": {
+    "php": "^8.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.0",
+    "vlucas/phpdotenv": "^5.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Envelope\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Envelope\\": "tests/"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  }
+}

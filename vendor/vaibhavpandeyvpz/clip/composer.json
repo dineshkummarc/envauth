@@ -1,0 +1,36 @@
+{
+  "authors": [
+    {
+      "name": "Vaibhav Pandey",
+      "email": "contact@vaibhavpandey.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Clip\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Clip\\": "tests/"
+    }
+  },
+  "description": "Minimal and simple CLI library for PHP with zero required dependencies.",
+  "homepage": "https://github.com/vaibhavpandeyvpz/clip",
+  "keywords": [
+    "cli",
+    "console",
+    "command",
+    "terminal",
+    "php8"
+  ],
+  "license": "MIT",
+  "name": "vaibhavpandeyvpz/clip",
+  "require": {
+    "php": "^8.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.0"
+  },
+  "type": "library"
+}

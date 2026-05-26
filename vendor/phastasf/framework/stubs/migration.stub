@@ -1,0 +1,33 @@
+<?php
+
+declare(strict_types=1);
+
+use Databoss\ConnectionInterface;
+use Kram\MigrationInterface;
+
+class {{class}} implements MigrationInterface
+{
+    public function up(ConnectionInterface $connection): void
+    {
+        $connection->create('table_name', [
+            'id' => [
+                'type' => 'INTEGER',
+                'auto_increment' => true,
+                'primary' => true,
+            ],
+            'created_at' => [
+                'type' => 'DATETIME',
+                'null' => false,
+            ],
+            'updated_at' => [
+                'type' => 'DATETIME',
+                'null' => false,
+            ],
+        ]);
+    }
+
+    public function down(ConnectionInterface $connection): void
+    {
+        $connection->drop('table_name');
+    }
+}

@@ -1,0 +1,40 @@
+{
+  "authors": [
+    {
+      "name": "Vaibhav Pandey",
+      "email": "contact@vaibhavpandey.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Tez\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tez\\": "tests/"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "description": "Fast and simple enough, framework agnostic, RegExp based HTTP router for micro-services and REST APIs.",
+  "homepage": "https://github.com/vaibhavpandeyvpz/tez",
+  "keywords": [
+    "http",
+    "rest",
+    "router",
+    "routing",
+    "microservice",
+    "api"
+  ],
+  "license": "MIT",
+  "name": "vaibhavpandeyvpz/tez",
+  "require": {
+    "php": "^8.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.0"
+  },
+  "type": "library"
+}

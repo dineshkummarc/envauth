@@ -1,0 +1,36 @@
+{
+  "authors": [
+    {
+      "name": "Vaibhav Pandey",
+      "email": "contact@vaibhavpandey.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Phlash\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Phlash\\": "tests/"
+    }
+  },
+  "description": "Package for flashing data now or later (in next request) for use in any micro/full-stack framework.",
+  "homepage": "https://github.com/vaibhavpandeyvpz/phlash",
+  "keywords": [
+    "session",
+    "flash",
+    "flash-messages",
+    "messages",
+    "notification"
+  ],
+  "license": "MIT",
+  "name": "vaibhavpandeyvpz/phlash",
+  "require": {
+    "php": ">=8.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.0"
+  },
+  "type": "library"
+}

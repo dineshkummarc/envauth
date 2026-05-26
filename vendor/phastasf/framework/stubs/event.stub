@@ -1,0 +1,20 @@
+<?php
+
+declare(strict_types=1);
+
+namespace {{namespace}};
+
+use Soochak\Event;
+
+/**
+ * Event dispatched when {{description}}.
+ */
+class {{class}} extends Event
+{
+    public function __construct(
+        // Add public readonly properties here
+        // Example:
+        // public readonly string $data,
+        // public readonly array $items = []
+    ) {}
+}

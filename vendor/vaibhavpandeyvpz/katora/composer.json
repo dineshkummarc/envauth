@@ -1,0 +1,41 @@
+{
+  "authors": [
+    {
+      "name": "Vaibhav Pandey",
+      "email": "contact@vaibhavpandey.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Katora\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Katora\\": "tests/"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "description": "Simple service container implementing PSR-11 for PHP >= 8.2.",
+  "homepage": "https://github.com/vaibhavpandeyvpz/katora",
+  "keywords": [
+    "psr-11",
+    "service",
+    "container",
+    "dependency-injection",
+    "di",
+    "ioc"
+  ],
+  "license": "MIT",
+  "name": "vaibhavpandeyvpz/katora",
+  "require": {
+    "php": "^8.2",
+    "psr/container": "^2.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.0"
+  },
+  "type": "library"
+}

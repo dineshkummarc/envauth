@@ -1,0 +1,2496 @@
+{
+    "packages": [
+        {
+            "name": "graham-campbell/result-type",
+            "version": "v1.1.4",
+            "version_normalized": "1.1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/GrahamCampbell/Result-Type.git",
+                "reference": "e01f4a821471308ba86aa202fed6698b6b695e3b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/GrahamCampbell/Result-Type/zipball/e01f4a821471308ba86aa202fed6698b6b695e3b",
+                "reference": "e01f4a821471308ba86aa202fed6698b6b695e3b",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2.5 || ^8.0",
+                "phpoption/phpoption": "^1.9.5"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.5.41 || ^9.6.22 || ^10.5.45 || ^11.5.7"
+            },
+            "time": "2025-12-27T19:43:20+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "GrahamCampbell\\ResultType\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Graham Campbell",
+                    "email": "hello@gjcampbell.co.uk",
+                    "homepage": "https://github.com/GrahamCampbell"
+                }
+            ],
+            "description": "An Implementation Of The Result Type",
+            "keywords": [
+                "Graham Campbell",
+                "GrahamCampbell",
+                "Result Type",
+                "Result-Type",
+                "result"
+            ],
+            "support": {
+                "issues": "https://github.com/GrahamCampbell/Result-Type/issues",
+                "source": "https://github.com/GrahamCampbell/Result-Type/tree/v1.1.4"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/GrahamCampbell",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/graham-campbell/result-type",
+                    "type": "tidelift"
+                }
+            ],
+            "install-path": "../graham-campbell/result-type"
+        },
+        {
+            "name": "middlewares/client-ip",
+            "version": "v2.1.0",
+            "version_normalized": "2.1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/middlewares/client-ip.git",
+                "reference": "f77798d93f7668ce6fd95261fbc9f20094daedc6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/middlewares/client-ip/zipball/f77798d93f7668ce6fd95261fbc9f20094daedc6",
+                "reference": "f77798d93f7668ce6fd95261fbc9f20094daedc6",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2 || ^8.0",
+                "psr/http-server-middleware": "^1"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3",
+                "laminas/laminas-diactoros": "^2 || ^3",
+                "middlewares/utils": "^2 || ^3 || ^4",
+                "oscarotero/php-cs-fixer-config": "^2",
+                "phpstan/phpstan": "^1 || ^2",
+                "phpunit/phpunit": "^8 || ^9",
+                "squizlabs/php_codesniffer": "^3"
+            },
+            "time": "2025-03-23T10:43:07+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Middlewares\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Middleware to detect the client ip and save it as a request attribute",
+            "homepage": "https://github.com/middlewares/client-ip",
+            "keywords": [
+                "IP",
+                "http",
+                "middleware",
+                "psr-15",
+                "psr-7",
+                "server"
+            ],
+            "support": {
+                "issues": "https://github.com/middlewares/client-ip/issues",
+                "source": "https://github.com/middlewares/client-ip/tree/v2.1.0"
+            },
+            "install-path": "../middlewares/client-ip"
+        },
+        {
+            "name": "phastasf/framework",
+            "version": "1.2.0",
+            "version_normalized": "1.2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phastasf/framework.git",
+                "reference": "2d61cee9ede121f1405012d092f018cdda186f92"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phastasf/framework/zipball/2d61cee9ede121f1405012d092f018cdda186f92",
+                "reference": "2d61cee9ede121f1405012d092f018cdda186f92",
+                "shasum": ""
+            },
+            "require": {
+                "middlewares/client-ip": "^2.1",
+                "php": "^8.2",
+                "vaibhavpandeyvpz/ank": "^2.0",
+                "vaibhavpandeyvpz/clip": "^1.0",
+                "vaibhavpandeyvpz/dakiya": "^3.0",
+                "vaibhavpandeyvpz/databoss": "^2.1",
+                "vaibhavpandeyvpz/datum": "^1.1",
+                "vaibhavpandeyvpz/drishti": "^1.1",
+                "vaibhavpandeyvpz/envelope": "^1.0",
+                "vaibhavpandeyvpz/filtr": "^2.0",
+                "vaibhavpandeyvpz/godam": "^2.0",
+                "vaibhavpandeyvpz/jweety": "^2.0",
+                "vaibhavpandeyvpz/katora": "^2.0",
+                "vaibhavpandeyvpz/kram": "^1.0",
+                "vaibhavpandeyvpz/kunfig": "^2.0",
+                "vaibhavpandeyvpz/phew": "^2.0",
+                "vaibhavpandeyvpz/phlash": "^3.0",
+                "vaibhavpandeyvpz/qatar": "^1.0",
+                "vaibhavpandeyvpz/samay": "^1.0",
+                "vaibhavpandeyvpz/sandesh": "^3.0",
+                "vaibhavpandeyvpz/soochak": "^2.0",
+                "vaibhavpandeyvpz/tez": "^3.0",
+                "vaibhavpandeyvpz/vidyut": "^3.0"
+            },
+            "require-dev": {
+                "vaibhavpandeyvpz/prayog": "^1.0"
+            },
+            "time": "2026-02-01T16:04:45+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "helpers.php"
+                ],
+                "psr-4": {
+                    "Phast\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vaibhav Pandey",
+                    "email": "contact@vaibhavpandey.com"
+                }
+            ],
+            "description": "A lightweight PHP framework for building CLI, web and API applications",
+            "keywords": [
+                "cache",
+                "captcha",
+                "database",
+                "dependency-injection",
+                "email",
+                "flash-messages",
+                "framework",
+                "jwt",
+                "logging",
+                "middleware",
+                "mvc",
+                "orm",
+                "php",
+                "psr",
+                "queue",
+                "routing"
+            ],
+            "support": {
+                "issues": "https://github.com/phastasf/framework/issues",
+                "source": "https://github.com/phastasf/framework/tree/1.2.0"
+            },
+            "install-path": "../phastasf/framework"
+        },
+        {
+            "name": "phpoption/phpoption",
+            "version": "1.9.5",
+            "version_normalized": "1.9.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/schmittjoh/php-option.git",
+                "reference": "75365b91986c2405cf5e1e012c5595cd487a98be"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/schmittjoh/php-option/zipball/75365b91986c2405cf5e1e012c5595cd487a98be",
+                "reference": "75365b91986c2405cf5e1e012c5595cd487a98be",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2.5 || ^8.0"
+            },
+            "require-dev": {
+                "bamarni/composer-bin-plugin": "^1.8.2",
+                "phpunit/phpunit": "^8.5.44 || ^9.6.25 || ^10.5.53 || ^11.5.34"
+            },
+            "time": "2025-12-27T19:41:33+00:00",
+            "type": "library",
+            "extra": {
+                "bamarni-bin": {
+                    "bin-links": true,
+                    "forward-command": false
+                },
+                "branch-alias": {
+                    "dev-master": "1.9-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "PhpOption\\": "src/PhpOption/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Johannes M. Schmitt",
+                    "email": "schmittjoh@gmail.com",
+                    "homepage": "https://github.com/schmittjoh"
+                },
+                {
+                    "name": "Graham Campbell",
+                    "email": "hello@gjcampbell.co.uk",
+                    "homepage": "https://github.com/GrahamCampbell"
+                }
+            ],
+            "description": "Option Type for PHP",
+            "keywords": [
+                "language",
+                "option",
+                "php",
+                "type"
+            ],
+            "support": {
+                "issues": "https://github.com/schmittjoh/php-option/issues",
+                "source": "https://github.com/schmittjoh/php-option/tree/1.9.5"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/GrahamCampbell",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/phpoption/phpoption",
+                    "type": "tidelift"
+                }
+            ],
+            "install-path": "../phpoption/phpoption"
+        },
+        {
+            "name": "psr/cache",
+            "version": "3.0.0",
+            "version_normalized": "3.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/cache.git",
+                "reference": "aa5030cfa5405eccfdcb1083ce040c2cb8d253bf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/cache/zipball/aa5030cfa5405eccfdcb1083ce040c2cb8d253bf",
+                "reference": "aa5030cfa5405eccfdcb1083ce040c2cb8d253bf",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0.0"
+            },
+            "time": "2021-02-03T23:26:27+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Cache\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for caching libraries",
+            "keywords": [
+                "cache",
+                "psr",
+                "psr-6"
+            ],
+            "support": {
+                "source": "https://github.com/php-fig/cache/tree/3.0.0"
+            },
+            "install-path": "../psr/cache"
+        },
+        {
+            "name": "psr/clock",
+            "version": "1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/clock.git",
+                "reference": "e41a24703d4560fd0acb709162f73b8adfc3aa0d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/clock/zipball/e41a24703d4560fd0acb709162f73b8adfc3aa0d",
+                "reference": "e41a24703d4560fd0acb709162f73b8adfc3aa0d",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0 || ^8.0"
+            },
+            "time": "2022-11-25T14:36:26+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Clock\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for reading the clock.",
+            "homepage": "https://github.com/php-fig/clock",
+            "keywords": [
+                "clock",
+                "now",
+                "psr",
+                "psr-20",
+                "time"
+            ],
+            "support": {
+                "issues": "https://github.com/php-fig/clock/issues",
+                "source": "https://github.com/php-fig/clock/tree/1.0.0"
+            },
+            "install-path": "../psr/clock"
+        },
+        {
+            "name": "psr/container",
+            "version": "2.0.2",
+            "version_normalized": "2.0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/container.git",
+                "reference": "c71ecc56dfe541dbd90c5360474fbc405f8d5963"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/container/zipball/c71ecc56dfe541dbd90c5360474fbc405f8d5963",
+                "reference": "c71ecc56dfe541dbd90c5360474fbc405f8d5963",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4.0"
+            },
+            "time": "2021-11-05T16:47:00+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Container\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common Container Interface (PHP FIG PSR-11)",
+            "homepage": "https://github.com/php-fig/container",
+            "keywords": [
+                "PSR-11",
+                "container",
+                "container-interface",
+                "container-interop",
+                "psr"
+            ],
+            "support": {
+                "issues": "https://github.com/php-fig/container/issues",
+                "source": "https://github.com/php-fig/container/tree/2.0.2"
+            },
+            "install-path": "../psr/container"
+        },
+        {
+            "name": "psr/event-dispatcher",
+            "version": "1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/event-dispatcher.git",
+                "reference": "dbefd12671e8a14ec7f180cab83036ed26714bb0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/event-dispatcher/zipball/dbefd12671e8a14ec7f180cab83036ed26714bb0",
+                "reference": "dbefd12671e8a14ec7f180cab83036ed26714bb0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.0"
+            },
+            "time": "2019-01-08T18:20:26+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Psr\\EventDispatcher\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Standard interfaces for event handling.",
+            "keywords": [
+                "events",
+                "psr",
+                "psr-14"
+            ],
+            "support": {
+                "issues": "https://github.com/php-fig/event-dispatcher/issues",
+                "source": "https://github.com/php-fig/event-dispatcher/tree/1.0.0"
+            },
+            "install-path": "../psr/event-dispatcher"
+        },
+        {
+            "name": "psr/http-client",
+            "version": "1.0.3",
+            "version_normalized": "1.0.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-client.git",
+                "reference": "bb5906edc1c324c9a05aa0873d40117941e5fa90"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-client/zipball/bb5906edc1c324c9a05aa0873d40117941e5fa90",
+                "reference": "bb5906edc1c324c9a05aa0873d40117941e5fa90",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0 || ^8.0",
+                "psr/http-message": "^1.0 || ^2.0"
+            },
+            "time": "2023-09-23T14:17:50+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Client\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP clients",
+            "homepage": "https://github.com/php-fig/http-client",
+            "keywords": [
+                "http",
+                "http-client",
+                "psr",
+                "psr-18"
+            ],
+            "support": {
+                "source": "https://github.com/php-fig/http-client"
+            },
+            "install-path": "../psr/http-client"
+        },
+        {
+            "name": "psr/http-factory",
+            "version": "1.1.0",
+            "version_normalized": "1.1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-factory.git",
+                "reference": "2b4765fddfe3b508ac62f829e852b1501d3f6e8a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-factory/zipball/2b4765fddfe3b508ac62f829e852b1501d3f6e8a",
+                "reference": "2b4765fddfe3b508ac62f829e852b1501d3f6e8a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1",
+                "psr/http-message": "^1.0 || ^2.0"
+            },
+            "time": "2024-04-15T12:06:14+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Message\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "PSR-17: Common interfaces for PSR-7 HTTP message factories",
+            "keywords": [
+                "factory",
+                "http",
+                "message",
+                "psr",
+                "psr-17",
+                "psr-7",
+                "request",
+                "response"
+            ],
+            "support": {
+                "source": "https://github.com/php-fig/http-factory"
+            },
+            "install-path": "../psr/http-factory"
+        },
+        {
+            "name": "psr/http-message",
+            "version": "2.0",
+            "version_normalized": "2.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-message.git",
+                "reference": "402d35bcb92c70c026d1a6a9883f06b2ead23d71"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-message/zipball/402d35bcb92c70c026d1a6a9883f06b2ead23d71",
+                "reference": "402d35bcb92c70c026d1a6a9883f06b2ead23d71",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2 || ^8.0"
+            },
+            "time": "2023-04-04T09:54:51+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Message\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP messages",
+            "homepage": "https://github.com/php-fig/http-message",
+            "keywords": [
+                "http",
+                "http-message",
+                "psr",
+                "psr-7",
+                "request",
+                "response"
+            ],
+            "support": {
+                "source": "https://github.com/php-fig/http-message/tree/2.0"
+            },
+            "install-path": "../psr/http-message"
+        },
+        {
+            "name": "psr/http-server-handler",
+            "version": "1.0.2",
+            "version_normalized": "1.0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-server-handler.git",
+                "reference": "84c4fb66179be4caaf8e97bd239203245302e7d4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-server-handler/zipball/84c4fb66179be4caaf8e97bd239203245302e7d4",
+                "reference": "84c4fb66179be4caaf8e97bd239203245302e7d4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0",
+                "psr/http-message": "^1.0 || ^2.0"
+            },
+            "time": "2023-04-10T20:06:20+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Server\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP server-side request handler",
+            "keywords": [
+                "handler",
+                "http",
+                "http-interop",
+                "psr",
+                "psr-15",
+                "psr-7",
+                "request",
+                "response",
+                "server"
+            ],
+            "support": {
+                "source": "https://github.com/php-fig/http-server-handler/tree/1.0.2"
+            },
+            "install-path": "../psr/http-server-handler"
+        },
+        {
+            "name": "psr/http-server-middleware",
+            "version": "1.0.2",
+            "version_normalized": "1.0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-server-middleware.git",
+                "reference": "c1481f747daaa6a0782775cd6a8c26a1bf4a3829"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-server-middleware/zipball/c1481f747daaa6a0782775cd6a8c26a1bf4a3829",
+                "reference": "c1481f747daaa6a0782775cd6a8c26a1bf4a3829",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0",
+                "psr/http-message": "^1.0 || ^2.0",
+                "psr/http-server-handler": "^1.0"
+            },
+            "time": "2023-04-11T06:14:47+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Server\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP server-side middleware",
+            "keywords": [
+                "http",
+                "http-interop",
+                "middleware",
+                "psr",
+                "psr-15",
+                "psr-7",
+                "request",
+                "response"
+            ],
+            "support": {
+                "issues": "https://github.com/php-fig/http-server-middleware/issues",
+                "source": "https://github.com/php-fig/http-server-middleware/tree/1.0.2"
+            },
+            "install-path": "../psr/http-server-middleware"
+        },
+        {
+            "name": "psr/log",
+            "version": "3.0.2",
+            "version_normalized": "3.0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "f16e1d5863e37f8d8c2a01719f5b34baa2b714d3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/f16e1d5863e37f8d8c2a01719f5b34baa2b714d3",
+                "reference": "f16e1d5863e37f8d8c2a01719f5b34baa2b714d3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0.0"
+            },
+            "time": "2024-09-11T13:17:53+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Log\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "support": {
+                "source": "https://github.com/php-fig/log/tree/3.0.2"
+            },
+            "install-path": "../psr/log"
+        },
+        {
+            "name": "psr/simple-cache",
+            "version": "3.0.0",
+            "version_normalized": "3.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/simple-cache.git",
+                "reference": "764e0b3939f5ca87cb904f570ef9be2d78a07865"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/simple-cache/zipball/764e0b3939f5ca87cb904f570ef9be2d78a07865",
+                "reference": "764e0b3939f5ca87cb904f570ef9be2d78a07865",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0.0"
+            },
+            "time": "2021-10-29T13:26:27+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Psr\\SimpleCache\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interfaces for simple caching",
+            "keywords": [
+                "cache",
+                "caching",
+                "psr",
+                "psr-16",
+                "simple-cache"
+            ],
+            "support": {
+                "source": "https://github.com/php-fig/simple-cache/tree/3.0.0"
+            },
+            "install-path": "../psr/simple-cache"
+        },
+        {
+            "name": "symfony/polyfill-ctype",
+            "version": "v1.37.0",
+            "version_normalized": "1.37.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-ctype.git",
+                "reference": "141046a8f9477948ff284fa65be2095baafb94f2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/141046a8f9477948ff284fa65be2095baafb94f2",
+                "reference": "141046a8f9477948ff284fa65be2095baafb94f2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2"
+            },
+            "provide": {
+                "ext-ctype": "*"
+            },
+            "suggest": {
+                "ext-ctype": "For best performance"
+            },
+            "time": "2026-04-10T16:19:22+00:00",
+            "type": "library",
+            "extra": {
+                "thanks": {
+                    "url": "https://github.com/symfony/polyfill",
+                    "name": "symfony/polyfill"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "bootstrap.php"
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Ctype\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gert de Pagter",
+                    "email": "BackEndTea@gmail.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for ctype functions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "ctype",
+                "polyfill",
+                "portable"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.37.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/nicolas-grekas",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "install-path": "../symfony/polyfill-ctype"
+        },
+        {
+            "name": "symfony/polyfill-mbstring",
+            "version": "v1.38.0",
+            "version_normalized": "1.38.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-mbstring.git",
+                "reference": "6b177d03d2eb04a6c9d01bab9818fb93a30ce7fd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/6b177d03d2eb04a6c9d01bab9818fb93a30ce7fd",
+                "reference": "6b177d03d2eb04a6c9d01bab9818fb93a30ce7fd",
+                "shasum": ""
+            },
+            "require": {
+                "ext-iconv": "*",
+                "php": ">=7.2"
+            },
+            "provide": {
+                "ext-mbstring": "*"
+            },
+            "suggest": {
+                "ext-mbstring": "For best performance"
+            },
+            "time": "2026-05-25T14:08:27+00:00",
+            "type": "library",
+            "extra": {
+                "thanks": {
+                    "url": "https://github.com/symfony/polyfill",
+                    "name": "symfony/polyfill"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "bootstrap.php"
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Mbstring\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for the Mbstring extension",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "mbstring",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.38.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/nicolas-grekas",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "install-path": "../symfony/polyfill-mbstring"
+        },
+        {
+            "name": "symfony/polyfill-php80",
+            "version": "v1.37.0",
+            "version_normalized": "1.37.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-php80.git",
+                "reference": "dfb55726c3a76ea3b6459fcfda1ec2d80a682411"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/dfb55726c3a76ea3b6459fcfda1ec2d80a682411",
+                "reference": "dfb55726c3a76ea3b6459fcfda1ec2d80a682411",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2"
+            },
+            "time": "2026-04-10T16:19:22+00:00",
+            "type": "library",
+            "extra": {
+                "thanks": {
+                    "url": "https://github.com/symfony/polyfill",
+                    "name": "symfony/polyfill"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "bootstrap.php"
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Php80\\": ""
+                },
+                "classmap": [
+                    "Resources/stubs"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ion Bazan",
+                    "email": "ion.bazan@gmail.com"
+                },
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill backporting some PHP 8.0+ features to lower PHP versions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-php80/tree/v1.37.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/nicolas-grekas",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "install-path": "../symfony/polyfill-php80"
+        },
+        {
+            "name": "vaibhavpandeyvpz/ank",
+            "version": "2.0.0",
+            "version_normalized": "2.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vaibhavpandeyvpz/ank.git",
+                "reference": "130b6b9e194a3070f4d746d9da4c7eae3a3918e8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vaibhavpandeyvpz/ank/zipball/130b6b9e194a3070f4d746d9da4c7eae3a3918e8",
+                "reference": "130b6b9e194a3070f4d746d9da4c7eae3a3918e8",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^10.0"
+            },
+            "time": "2025-12-28T06:46:30+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Ank\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vaibhav Pandey",
+                    "email": "contact@vaibhavpandey.com"
+                }
+            ],
+            "description": "Simple and customizable captcha generation library, runs on PHP >= 8.2.",
+            "homepage": "https://github.com/vaibhavpandeyvpz/ank",
+            "keywords": [
+                "ank",
+                "captcha",
+                "generator",
+                "image",
+                "mathematics",
+                "random"
+            ],
+            "support": {
+                "issues": "https://github.com/vaibhavpandeyvpz/ank/issues",
+                "source": "https://github.com/vaibhavpandeyvpz/ank/tree/2.0.0"
+            },
+            "install-path": "../vaibhavpandeyvpz/ank"
+        },
+        {
+            "name": "vaibhavpandeyvpz/clip",
+            "version": "1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vaibhavpandeyvpz/clip.git",
+                "reference": "7000df6dc9d8942135314534e0853473bf140674"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vaibhavpandeyvpz/clip/zipball/7000df6dc9d8942135314534e0853473bf140674",
+                "reference": "7000df6dc9d8942135314534e0853473bf140674",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^10.0"
+            },
+            "time": "2026-01-02T07:21:05+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Clip\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vaibhav Pandey",
+                    "email": "contact@vaibhavpandey.com"
+                }
+            ],
+            "description": "Minimal and simple CLI library for PHP with zero required dependencies.",
+            "homepage": "https://github.com/vaibhavpandeyvpz/clip",
+            "keywords": [
+                "cli",
+                "command",
+                "console",
+                "php8",
+                "terminal"
+            ],
+            "support": {
+                "issues": "https://github.com/vaibhavpandeyvpz/clip/issues",
+                "source": "https://github.com/vaibhavpandeyvpz/clip/tree/1.0.0"
+            },
+            "install-path": "../vaibhavpandeyvpz/clip"
+        },
+        {
+            "name": "vaibhavpandeyvpz/dakiya",
+            "version": "3.0.1",
+            "version_normalized": "3.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vaibhavpandeyvpz/dakiya.git",
+                "reference": "0dddfe76c29cc5525371fa9b9d5dfe61411058a1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vaibhavpandeyvpz/dakiya/zipball/0dddfe76c29cc5525371fa9b9d5dfe61411058a1",
+                "reference": "0dddfe76c29cc5525371fa9b9d5dfe61411058a1",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": "^8.2",
+                "psr/http-client": "^1.0",
+                "psr/http-factory": "^1.0",
+                "psr/http-message": "^2.0"
+            },
+            "provide": {
+                "psr/http-client-implementation": "^1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^10.0",
+                "vaibhavpandeyvpz/sandesh": "^3.0"
+            },
+            "suggest": {
+                "vaibhavpandeyvpz/sandesh": ""
+            },
+            "time": "2026-01-15T16:25:56+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Dakiya\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vaibhav Pandey",
+                    "email": "contact@vaibhavpandey.com"
+                }
+            ],
+            "description": "Tiny HTTP client for exchanging PSR-7 messages, based on PSR-18.",
+            "homepage": "https://github.com/vaibhavpandeyvpz/dakiya",
+            "keywords": [
+                "client",
+                "curl",
+                "http",
+                "library",
+                "psr-18",
+                "psr-7"
+            ],
+            "support": {
+                "issues": "https://github.com/vaibhavpandeyvpz/dakiya/issues",
+                "source": "https://github.com/vaibhavpandeyvpz/dakiya/tree/3.0.1"
+            },
+            "install-path": "../vaibhavpandeyvpz/dakiya"
+        },
+        {
+            "name": "vaibhavpandeyvpz/databoss",
+            "version": "2.1.0",
+            "version_normalized": "2.1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vaibhavpandeyvpz/databoss.git",
+                "reference": "551a180ebbf20be75dba442bd5e8a2f2295fc5a8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vaibhavpandeyvpz/databoss/zipball/551a180ebbf20be75dba442bd5e8a2f2295fc5a8",
+                "reference": "551a180ebbf20be75dba442bd5e8a2f2295fc5a8",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pdo": "*",
+                "php": "^8.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^10.0"
+            },
+            "suggest": {
+                "ext-pdo_mysql": "",
+                "ext-pdo_pgsql": "",
+                "ext-pdo_sqlite": ""
+            },
+            "time": "2025-12-29T08:22:09+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Databoss\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vaibhav Pandey",
+                    "email": "contact@vaibhavpandey.com"
+                }
+            ],
+            "description": "Simple abstraction for MySQL/MariaDB, PostgreSQL and SQLite database server(s), compatible with PHP >= 8.2.",
+            "homepage": "https://github.com/vaibhavpandeyvpz/databoss",
+            "keywords": [
+                "abstraction",
+                "database",
+                "mariadb",
+                "mysql",
+                "pgsql",
+                "postgres",
+                "sqlite"
+            ],
+            "support": {
+                "issues": "https://github.com/vaibhavpandeyvpz/databoss/issues",
+                "source": "https://github.com/vaibhavpandeyvpz/databoss/tree/2.1.0"
+            },
+            "install-path": "../vaibhavpandeyvpz/databoss"
+        },
+        {
+            "name": "vaibhavpandeyvpz/datum",
+            "version": "1.2.1",
+            "version_normalized": "1.2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vaibhavpandeyvpz/datum.git",
+                "reference": "5e926288d48fa9b111e72842c037f2deacc14cfd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vaibhavpandeyvpz/datum/zipball/5e926288d48fa9b111e72842c037f2deacc14cfd",
+                "reference": "5e926288d48fa9b111e72842c037f2deacc14cfd",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.2",
+                "psr/clock": "^1.0",
+                "psr/event-dispatcher": "^1.0",
+                "vaibhavpandeyvpz/databoss": "^2.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^10.0",
+                "vaibhavpandeyvpz/samay": "^1.0",
+                "vaibhavpandeyvpz/soochak": "^2.0"
+            },
+            "time": "2026-01-15T17:00:59+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Datum\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A simple Active Record ORM for PHP built on top of databoss",
+            "support": {
+                "issues": "https://github.com/vaibhavpandeyvpz/datum/issues",
+                "source": "https://github.com/vaibhavpandeyvpz/datum/tree/1.2.1"
+            },
+            "install-path": "../vaibhavpandeyvpz/datum"
+        },
+        {
+            "name": "vaibhavpandeyvpz/drishti",
+            "version": "1.1.0",
+            "version_normalized": "1.1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vaibhavpandeyvpz/drishti.git",
+                "reference": "73b665508f198b4f8aa0dd22d234a24a439f1c09"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vaibhavpandeyvpz/drishti/zipball/73b665508f198b4f8aa0dd22d234a24a439f1c09",
+                "reference": "73b665508f198b4f8aa0dd22d234a24a439f1c09",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.2",
+                "psr/clock": "^1.0",
+                "psr/log": "^1.0 || ^2.0 || ^3.0"
+            },
+            "provide": {
+                "psr/log-implementation": "^1.0 || ^2.0 || ^3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^10.0",
+                "vaibhavpandeyvpz/samay": "^1.0"
+            },
+            "time": "2025-12-28T04:14:13+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Drishti\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vaibhav Pandey",
+                    "email": "contact@vaibhavpandey.com"
+                }
+            ],
+            "description": "A lightweight, flexible PSR-3 compliant logging library with configurable backends and zero dependencies.",
+            "homepage": "https://github.com/vaibhavpandeyvpz/drishti",
+            "keywords": [
+                "logger",
+                "logging",
+                "psr-3"
+            ],
+            "support": {
+                "issues": "https://github.com/vaibhavpandeyvpz/drishti/issues",
+                "source": "https://github.com/vaibhavpandeyvpz/drishti/tree/1.1.0"
+            },
+            "install-path": "../vaibhavpandeyvpz/drishti"
+        },
+        {
+            "name": "vaibhavpandeyvpz/envelope",
+            "version": "1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vaibhavpandeyvpz/envelope.git",
+                "reference": "27dbcd4c4a844a0979c29263318e010c01a3b209"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vaibhavpandeyvpz/envelope/zipball/27dbcd4c4a844a0979c29263318e010c01a3b209",
+                "reference": "27dbcd4c4a844a0979c29263318e010c01a3b209",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^10.0",
+                "vlucas/phpdotenv": "^5.6"
+            },
+            "time": "2025-12-31T05:50:59+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Envelope\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vaibhav Pandey",
+                    "email": "contact@vaibhavpandey.com"
+                }
+            ],
+            "description": "PHP library for sending RFC 2046 & 822 compliant emails with a fluent API and multiple backends.",
+            "support": {
+                "issues": "https://github.com/vaibhavpandeyvpz/envelope/issues",
+                "source": "https://github.com/vaibhavpandeyvpz/envelope/tree/1.0.0"
+            },
+            "install-path": "../vaibhavpandeyvpz/envelope"
+        },
+        {
+            "name": "vaibhavpandeyvpz/filtr",
+            "version": "2.0.0",
+            "version_normalized": "2.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vaibhavpandeyvpz/filtr.git",
+                "reference": "ea21ea0304271e34a2925be4e5e13adf7cdcfe32"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vaibhavpandeyvpz/filtr/zipball/ea21ea0304271e34a2925be4e5e13adf7cdcfe32",
+                "reference": "ea21ea0304271e34a2925be4e5e13adf7cdcfe32",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^10.0"
+            },
+            "time": "2025-12-28T07:43:25+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Filtr\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vaibhav Pandey",
+                    "email": "contact@vaibhavpandey.com"
+                }
+            ],
+            "description": "Simple and fluent input validation for PHP 8.2+.",
+            "homepage": "https://github.com/vaibhavpandeyvpz/filtr",
+            "keywords": [
+                "filtering",
+                "form",
+                "input",
+                "php8",
+                "validation",
+                "validator"
+            ],
+            "support": {
+                "issues": "https://github.com/vaibhavpandeyvpz/filtr/issues",
+                "source": "https://github.com/vaibhavpandeyvpz/filtr/tree/2.0.0"
+            },
+            "install-path": "../vaibhavpandeyvpz/filtr"
+        },
+        {
+            "name": "vaibhavpandeyvpz/godam",
+            "version": "2.0.1",
+            "version_normalized": "2.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vaibhavpandeyvpz/godam.git",
+                "reference": "b72a095dedecc883340450a229f11234c624b1bd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vaibhavpandeyvpz/godam/zipball/b72a095dedecc883340450a229f11234c624b1bd",
+                "reference": "b72a095dedecc883340450a229f11234c624b1bd",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.2",
+                "psr/cache": "^1.0 || ^2.0 || ^3.0",
+                "psr/simple-cache": "^1.0 || ^2.0 || ^3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^10.0",
+                "predis/predis": "^2.0"
+            },
+            "suggest": {
+                "ext-memcache": "",
+                "ext-redis": "",
+                "predis/predis": ""
+            },
+            "time": "2026-01-02T04:04:21+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Godam\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vaibhav Pandey",
+                    "email": "contact@vaibhavpandey.com"
+                }
+            ],
+            "description": "A modern, PSR-6 and PSR-16 compliant caching library for PHP 8.2+ with support for multiple storage backends.",
+            "homepage": "https://github.com/vaibhavpandeyvpz/godam",
+            "keywords": [
+                "cache",
+                "psr-16",
+                "psr-6"
+            ],
+            "support": {
+                "issues": "https://github.com/vaibhavpandeyvpz/godam/issues",
+                "source": "https://github.com/vaibhavpandeyvpz/godam/tree/2.0.1"
+            },
+            "install-path": "../vaibhavpandeyvpz/godam"
+        },
+        {
+            "name": "vaibhavpandeyvpz/jweety",
+            "version": "2.0.0",
+            "version_normalized": "2.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vaibhavpandeyvpz/jweety.git",
+                "reference": "4d0e5eda94082d39143ff292c521983b1be94a76"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vaibhavpandeyvpz/jweety/zipball/4d0e5eda94082d39143ff292c521983b1be94a76",
+                "reference": "4d0e5eda94082d39143ff292c521983b1be94a76",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.2",
+                "psr/clock": "^1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^10.0",
+                "vaibhavpandeyvpz/samay": "^1.0"
+            },
+            "time": "2025-12-28T06:24:58+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Jweety\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vaibhav Pandey",
+                    "email": "contact@vaibhavpandey.com"
+                }
+            ],
+            "description": "Simple JWT (RFC 7519) encoding/decoding and validation library, for PHP >= 8.2.",
+            "homepage": "https://github.com/vaibhavpandeyvpz/jweety",
+            "keywords": [
+                "Authentication",
+                "JSON Web Token",
+                "RFC7519",
+                "hmac",
+                "jwt"
+            ],
+            "support": {
+                "issues": "https://github.com/vaibhavpandeyvpz/jweety/issues",
+                "source": "https://github.com/vaibhavpandeyvpz/jweety/tree/2.0.0"
+            },
+            "install-path": "../vaibhavpandeyvpz/jweety"
+        },
+        {
+            "name": "vaibhavpandeyvpz/katora",
+            "version": "2.0.0",
+            "version_normalized": "2.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vaibhavpandeyvpz/katora.git",
+                "reference": "efa8b2c1dfa9af946a739067e1bd092871733c67"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vaibhavpandeyvpz/katora/zipball/efa8b2c1dfa9af946a739067e1bd092871733c67",
+                "reference": "efa8b2c1dfa9af946a739067e1bd092871733c67",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.2",
+                "psr/container": "^2.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^10.0"
+            },
+            "time": "2025-12-27T20:40:39+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Katora\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vaibhav Pandey",
+                    "email": "contact@vaibhavpandey.com"
+                }
+            ],
+            "description": "Simple service container implementing PSR-11 for PHP >= 8.2.",
+            "homepage": "https://github.com/vaibhavpandeyvpz/katora",
+            "keywords": [
+                "PSR-11",
+                "container",
+                "dependency-injection",
+                "di",
+                "ioc",
+                "service"
+            ],
+            "support": {
+                "issues": "https://github.com/vaibhavpandeyvpz/katora/issues",
+                "source": "https://github.com/vaibhavpandeyvpz/katora/tree/2.0.0"
+            },
+            "install-path": "../vaibhavpandeyvpz/katora"
+        },
+        {
+            "name": "vaibhavpandeyvpz/kram",
+            "version": "1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vaibhavpandeyvpz/kram.git",
+                "reference": "32bca75886c62db78b241da1d7ba056f66554d45"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vaibhavpandeyvpz/kram/zipball/32bca75886c62db78b241da1d7ba056f66554d45",
+                "reference": "32bca75886c62db78b241da1d7ba056f66554d45",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.2",
+                "vaibhavpandeyvpz/databoss": "^2.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^10.0"
+            },
+            "time": "2025-12-29T08:30:56+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Kram\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vaibhav Pandey",
+                    "email": "contact@vaibhavpandey.com"
+                }
+            ],
+            "description": "Simple and deterministic database migration and versioning library built on top of databoss",
+            "homepage": "https://github.com/vaibhavpandeyvpz/kram",
+            "keywords": [
+                "database",
+                "databoss",
+                "migration",
+                "schema",
+                "versioning"
+            ],
+            "support": {
+                "issues": "https://github.com/vaibhavpandeyvpz/kram/issues",
+                "source": "https://github.com/vaibhavpandeyvpz/kram/tree/1.0.0"
+            },
+            "install-path": "../vaibhavpandeyvpz/kram"
+        },
+        {
+            "name": "vaibhavpandeyvpz/kunfig",
+            "version": "2.1.1",
+            "version_normalized": "2.1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vaibhavpandeyvpz/kunfig.git",
+                "reference": "e52fe1f1e761cd0c95b5e8be0d409c741e7c0025"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vaibhavpandeyvpz/kunfig/zipball/e52fe1f1e761cd0c95b5e8be0d409c741e7c0025",
+                "reference": "e52fe1f1e761cd0c95b5e8be0d409c741e7c0025",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^10.0"
+            },
+            "time": "2026-01-16T05:37:15+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Kunfig\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vaibhav Pandey",
+                    "email": "contact@vaibhavpandey.com"
+                }
+            ],
+            "description": "Helper library to easily merge & use multiple configuration files.",
+            "homepage": "https://github.com/vaibhavpandeyvpz/kunfig",
+            "keywords": [
+                "configuration",
+                "manager",
+                "multiple",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/vaibhavpandeyvpz/kunfig/issues",
+                "source": "https://github.com/vaibhavpandeyvpz/kunfig/tree/2.1.1"
+            },
+            "install-path": "../vaibhavpandeyvpz/kunfig"
+        },
+        {
+            "name": "vaibhavpandeyvpz/phew",
+            "version": "2.0.0",
+            "version_normalized": "2.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vaibhavpandeyvpz/phew.git",
+                "reference": "c8fa724f68560eb309036267dd49a1e9acd7baa8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vaibhavpandeyvpz/phew/zipball/c8fa724f68560eb309036267dd49a1e9acd7baa8",
+                "reference": "c8fa724f68560eb309036267dd49a1e9acd7baa8",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^10.0"
+            },
+            "time": "2025-12-28T04:40:51+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Phew\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vaibhav Pandey",
+                    "email": "contact@vaibhavpandey.com"
+                }
+            ],
+            "description": "Simple (just 2 classes) and native PHP view engine with support for inheritance (layouts).",
+            "homepage": "https://github.com/vaibhavpandeyvpz/phew",
+            "keywords": [
+                "engine",
+                "template",
+                "view"
+            ],
+            "support": {
+                "issues": "https://github.com/vaibhavpandeyvpz/phew/issues",
+                "source": "https://github.com/vaibhavpandeyvpz/phew/tree/2.0.0"
+            },
+            "install-path": "../vaibhavpandeyvpz/phew"
+        },
+        {
+            "name": "vaibhavpandeyvpz/phlash",
+            "version": "3.0.0",
+            "version_normalized": "3.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vaibhavpandeyvpz/phlash.git",
+                "reference": "3bd3cb2973f1e4fa64e5b48d0b63cd99df40a1c0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vaibhavpandeyvpz/phlash/zipball/3bd3cb2973f1e4fa64e5b48d0b63cd99df40a1c0",
+                "reference": "3bd3cb2973f1e4fa64e5b48d0b63cd99df40a1c0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^10.0"
+            },
+            "time": "2025-12-28T05:09:42+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Phlash\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vaibhav Pandey",
+                    "email": "contact@vaibhavpandey.com"
+                }
+            ],
+            "description": "Package for flashing data now or later (in next request) for use in any micro/full-stack framework.",
+            "homepage": "https://github.com/vaibhavpandeyvpz/phlash",
+            "keywords": [
+                "flash",
+                "flash-messages",
+                "messages",
+                "notification",
+                "session"
+            ],
+            "support": {
+                "issues": "https://github.com/vaibhavpandeyvpz/phlash/issues",
+                "source": "https://github.com/vaibhavpandeyvpz/phlash/tree/3.0.0"
+            },
+            "install-path": "../vaibhavpandeyvpz/phlash"
+        },
+        {
+            "name": "vaibhavpandeyvpz/prayog",
+            "version": "1.0.1",
+            "version_normalized": "1.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vaibhavpandeyvpz/prayog.git",
+                "reference": "78290aaa934eec3b655e2340d4b39bb96ff0db0b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vaibhavpandeyvpz/prayog/zipball/78290aaa934eec3b655e2340d4b39bb96ff0db0b",
+                "reference": "78290aaa934eec3b655e2340d4b39bb96ff0db0b",
+                "shasum": ""
+            },
+            "require": {
+                "ext-readline": "*",
+                "php": "^8.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^10.0"
+            },
+            "time": "2026-01-02T06:48:48+00:00",
+            "bin": [
+                "bin/prayog"
+            ],
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Prayog\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vaibhav Pandey",
+                    "email": "contact@vaibhavpandey.com"
+                }
+            ],
+            "description": "A dead simple, minimal REPL (Read-Evaluate-Print-Loop) for PHP 8.2+",
+            "homepage": "https://github.com/vaibhavpandeyvpz/prayog",
+            "keywords": [
+                "REPL",
+                "cli",
+                "console",
+                "debug",
+                "development",
+                "interactive",
+                "interactive-shell",
+                "php-repl",
+                "read-eval-print-loop",
+                "shell",
+                "terminal",
+                "testing"
+            ],
+            "support": {
+                "issues": "https://github.com/vaibhavpandeyvpz/prayog/issues",
+                "source": "https://github.com/vaibhavpandeyvpz/prayog/tree/1.0.1"
+            },
+            "install-path": "../vaibhavpandeyvpz/prayog"
+        },
+        {
+            "name": "vaibhavpandeyvpz/qatar",
+            "version": "1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vaibhavpandeyvpz/qatar.git",
+                "reference": "2afcf3256a4fb903f0c3b6bc30f15be09b246b46"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vaibhavpandeyvpz/qatar/zipball/2afcf3256a4fb903f0c3b6bc30f15be09b246b46",
+                "reference": "2afcf3256a4fb903f0c3b6bc30f15be09b246b46",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.2"
+            },
+            "require-dev": {
+                "aws/aws-sdk-php": "^3.0",
+                "phpunit/phpunit": "^10.0",
+                "predis/predis": "^2.0"
+            },
+            "suggest": {
+                "aws/aws-sdk-php": "Required to use ElasticMQQueue (^3.0)",
+                "ext-json": "Required for job payload serialization",
+                "ext-redis": "Required to use RedisQueue with native driver",
+                "predis/predis": "Required to use RedisQueue with Predis driver (^2.0)"
+            },
+            "time": "2025-12-31T04:05:54+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Qatar\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vaibhav Pandey",
+                    "email": "contact@vaibhavpandey.com"
+                }
+            ],
+            "description": "Framework agnostic PHP library for publishing and consuming jobs using Redis and ElasticMQ backends.",
+            "homepage": "https://github.com/vaibhavpandeyvpz/qatar",
+            "keywords": [
+                "async",
+                "background",
+                "elasticmq",
+                "job",
+                "queue",
+                "redis",
+                "sqs",
+                "worker"
+            ],
+            "support": {
+                "issues": "https://github.com/vaibhavpandeyvpz/qatar/issues",
+                "source": "https://github.com/vaibhavpandeyvpz/qatar/tree/1.0.0"
+            },
+            "install-path": "../vaibhavpandeyvpz/qatar"
+        },
+        {
+            "name": "vaibhavpandeyvpz/samay",
+            "version": "1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vaibhavpandeyvpz/samay.git",
+                "reference": "5dc854812980221c8df153210247bf27e37384bc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vaibhavpandeyvpz/samay/zipball/5dc854812980221c8df153210247bf27e37384bc",
+                "reference": "5dc854812980221c8df153210247bf27e37384bc",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.2",
+                "psr/clock": "^1.0"
+            },
+            "provide": {
+                "psr/clock-implementation": "^1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^10.0"
+            },
+            "time": "2025-12-28T04:02:32+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Samay\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vaibhav Pandey",
+                    "email": "contact@vaibhavpandey.com"
+                }
+            ],
+            "description": "A lightweight, PSR-20 compliant clock library with zero dependencies other than the PSR-20 interface.",
+            "homepage": "https://github.com/vaibhavpandeyvpz/samay",
+            "keywords": [
+                "clock",
+                "datetime",
+                "psr-20",
+                "time"
+            ],
+            "support": {
+                "issues": "https://github.com/vaibhavpandeyvpz/samay/issues",
+                "source": "https://github.com/vaibhavpandeyvpz/samay/tree/1.0.0"
+            },
+            "install-path": "../vaibhavpandeyvpz/samay"
+        },
+        {
+            "name": "vaibhavpandeyvpz/sandesh",
+            "version": "3.0.0",
+            "version_normalized": "3.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vaibhavpandeyvpz/sandesh.git",
+                "reference": "68ca10162af03c93929e6cfe3984c9063c340316"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vaibhavpandeyvpz/sandesh/zipball/68ca10162af03c93929e6cfe3984c9063c340316",
+                "reference": "68ca10162af03c93929e6cfe3984c9063c340316",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.2",
+                "psr/http-factory": "^1.1",
+                "psr/http-message": "^2.0"
+            },
+            "provide": {
+                "psr/http-factory-implementation": "^1.0",
+                "psr/http-message-implementation": "^1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^10.0"
+            },
+            "time": "2025-12-27T21:18:19+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Sandesh\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vaibhav Pandey",
+                    "email": "contact@vaibhavpandey.com"
+                }
+            ],
+            "description": "PSR-7 and PSR-17 implementation, works with PHP >= 8.2.",
+            "homepage": "https://github.com/vaibhavpandeyvpz/sandesh",
+            "keywords": [
+                "factory",
+                "http",
+                "message",
+                "psr-17",
+                "psr-7"
+            ],
+            "support": {
+                "issues": "https://github.com/vaibhavpandeyvpz/sandesh/issues",
+                "source": "https://github.com/vaibhavpandeyvpz/sandesh/tree/3.0.0"
+            },
+            "install-path": "../vaibhavpandeyvpz/sandesh"
+        },
+        {
+            "name": "vaibhavpandeyvpz/soochak",
+            "version": "2.0.0",
+            "version_normalized": "2.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vaibhavpandeyvpz/soochak.git",
+                "reference": "d89dc16e682406b959086cbd224116951956349a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vaibhavpandeyvpz/soochak/zipball/d89dc16e682406b959086cbd224116951956349a",
+                "reference": "d89dc16e682406b959086cbd224116951956349a",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.2",
+                "psr/event-dispatcher": "^1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^10.0"
+            },
+            "time": "2026-01-02T14:03:15+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Soochak\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vaibhav Pandey",
+                    "email": "contact@vaibhavpandey.com"
+                }
+            ],
+            "description": "A simple but useful events manager based on PSR-14 for PHP >= 8.2.",
+            "homepage": "https://github.com/vaibhavpandeyvpz/soochak",
+            "keywords": [
+                "event-dispatcher",
+                "events",
+                "manager",
+                "php",
+                "psr-14"
+            ],
+            "support": {
+                "issues": "https://github.com/vaibhavpandeyvpz/soochak/issues",
+                "source": "https://github.com/vaibhavpandeyvpz/soochak/tree/2.0.0"
+            },
+            "install-path": "../vaibhavpandeyvpz/soochak"
+        },
+        {
+            "name": "vaibhavpandeyvpz/tez",
+            "version": "3.0.0",
+            "version_normalized": "3.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vaibhavpandeyvpz/tez.git",
+                "reference": "b378c6803c02362f5afbfa23bdfb7a77640d73fb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vaibhavpandeyvpz/tez/zipball/b378c6803c02362f5afbfa23bdfb7a77640d73fb",
+                "reference": "b378c6803c02362f5afbfa23bdfb7a77640d73fb",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^10.0"
+            },
+            "time": "2025-12-28T04:55:21+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Tez\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vaibhav Pandey",
+                    "email": "contact@vaibhavpandey.com"
+                }
+            ],
+            "description": "Fast and simple enough, framework agnostic, RegExp based HTTP router for micro-services and REST APIs.",
+            "homepage": "https://github.com/vaibhavpandeyvpz/tez",
+            "keywords": [
+                "Microservice",
+                "api",
+                "http",
+                "rest",
+                "router",
+                "routing"
+            ],
+            "support": {
+                "issues": "https://github.com/vaibhavpandeyvpz/tez/issues",
+                "source": "https://github.com/vaibhavpandeyvpz/tez/tree/3.0.0"
+            },
+            "install-path": "../vaibhavpandeyvpz/tez"
+        },
+        {
+            "name": "vaibhavpandeyvpz/vidyut",
+            "version": "3.0.0",
+            "version_normalized": "3.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vaibhavpandeyvpz/vidyut.git",
+                "reference": "aabc87fbaa6c709d41107effa4cceae6b901ef35"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vaibhavpandeyvpz/vidyut/zipball/aabc87fbaa6c709d41107effa4cceae6b901ef35",
+                "reference": "aabc87fbaa6c709d41107effa4cceae6b901ef35",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.2",
+                "psr/http-message": "^1.0 || ^2.0",
+                "psr/http-server-handler": "^1.0",
+                "psr/http-server-middleware": "^1.0"
+            },
+            "provide": {
+                "psr/http-server-handler-implementation": "^1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^10.0",
+                "vaibhavpandeyvpz/sandesh": "^3.0"
+            },
+            "time": "2025-12-27T21:33:52+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Vidyut\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vaibhav Pandey",
+                    "email": "contact@vaibhavpandey.com"
+                }
+            ],
+            "description": "No frills PSR-7 request handler based on PSR-15 specification.",
+            "homepage": "https://github.com/vaibhavpandeyvpz/vidyut",
+            "keywords": [
+                "http",
+                "middleware",
+                "psr-15",
+                "psr-7"
+            ],
+            "support": {
+                "issues": "https://github.com/vaibhavpandeyvpz/vidyut/issues",
+                "source": "https://github.com/vaibhavpandeyvpz/vidyut/tree/3.0.0"
+            },
+            "install-path": "../vaibhavpandeyvpz/vidyut"
+        },
+        {
+            "name": "vlucas/phpdotenv",
+            "version": "v5.6.3",
+            "version_normalized": "5.6.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vlucas/phpdotenv.git",
+                "reference": "955e7815d677a3eaa7075231212f2110983adecc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/955e7815d677a3eaa7075231212f2110983adecc",
+                "reference": "955e7815d677a3eaa7075231212f2110983adecc",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pcre": "*",
+                "graham-campbell/result-type": "^1.1.4",
+                "php": "^7.2.5 || ^8.0",
+                "phpoption/phpoption": "^1.9.5",
+                "symfony/polyfill-ctype": "^1.26",
+                "symfony/polyfill-mbstring": "^1.26",
+                "symfony/polyfill-php80": "^1.26"
+            },
+            "require-dev": {
+                "bamarni/composer-bin-plugin": "^1.8.2",
+                "ext-filter": "*",
+                "phpunit/phpunit": "^8.5.34 || ^9.6.13 || ^10.4.2"
+            },
+            "suggest": {
+                "ext-filter": "Required to use the boolean validator."
+            },
+            "time": "2025-12-27T19:49:13+00:00",
+            "type": "library",
+            "extra": {
+                "bamarni-bin": {
+                    "bin-links": true,
+                    "forward-command": false
+                },
+                "branch-alias": {
+                    "dev-master": "5.6-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Dotenv\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Graham Campbell",
+                    "email": "hello@gjcampbell.co.uk",
+                    "homepage": "https://github.com/GrahamCampbell"
+                },
+                {
+                    "name": "Vance Lucas",
+                    "email": "vance@vancelucas.com",
+                    "homepage": "https://github.com/vlucas"
+                }
+            ],
+            "description": "Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automagically.",
+            "keywords": [
+                "dotenv",
+                "env",
+                "environment"
+            ],
+            "support": {
+                "issues": "https://github.com/vlucas/phpdotenv/issues",
+                "source": "https://github.com/vlucas/phpdotenv/tree/v5.6.3"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/GrahamCampbell",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/vlucas/phpdotenv",
+                    "type": "tidelift"
+                }
+            ],
+            "install-path": "../vlucas/phpdotenv"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": [
+        "vaibhavpandeyvpz/prayog"
+    ]
+}

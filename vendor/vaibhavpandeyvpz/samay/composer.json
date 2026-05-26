@@ -1,0 +1,39 @@
+{
+  "authors": [
+    {
+      "name": "Vaibhav Pandey",
+      "email": "contact@vaibhavpandey.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Samay\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Samay\\": "tests/"
+    }
+  },
+  "description": "A lightweight, PSR-20 compliant clock library with zero dependencies other than the PSR-20 interface.",
+  "homepage": "https://github.com/vaibhavpandeyvpz/samay",
+  "keywords": [
+    "psr-20",
+    "clock",
+    "time",
+    "datetime"
+  ],
+  "license": "MIT",
+  "name": "vaibhavpandeyvpz/samay",
+  "provide": {
+    "psr/clock-implementation": "^1.0"
+  },
+  "require": {
+    "php": "^8.2",
+    "psr/clock": "^1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.0"
+  },
+  "type": "library"
+}
